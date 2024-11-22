@@ -1,0 +1,141 @@
+ .MyDiv { 
+    background-image: url(Images/BannerImage.JPG);   
+    text-align: center;
+    background-size: 100%;
+  }
+
+html{
+    background-image: url(Images/background.jpg);
+    }
+
+body{
+    margin:0px;
+    }
+
+/*Menu style */.menu{ 
+    width:75% ;
+    float: left;
+    height: 70px;
+    }
+
+header menu{
+    width: 100%;
+    padding: 20px;
+    }
+
+
+/* this is the part to decorate menu */
+ul{
+    width: 120%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* this is the part to decorate the text size for menu */
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    font-size: 25px;
+    
+}
+/* This is decorate for <a> */
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+/* font-family and font-weight are used to modify text */
+/* Transition is to make the word slowly turn into color */
+
+ul li a:hover{
+    color:rgb(212, 10, 10);
+}
+/* Make the font color change when the mouse touches it */
+
+/* This is for like a container for shirt */
+.Container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+ .Photo{ 
+    width: 325px;
+    background-color: #55555555;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin:20px;
+}
+
+.Photo img{
+    width: 100%;
+    height: auto;
+}
+
+ .Content{ 
+    padding: 16px;
+}
+
+/* This is for Name for shirt */
+.Content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+/* This is for information for the shirt */
+.Content p{
+    color: #000000;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+/* This is for button that appear in the container */
+.Content .button{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color:#fff;
+}
+
+
+footer {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+ .about img{
+    height: auto;
+    width: 420px;
+ }
+ .about-test{
+    width: 550px;
+ }
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-test h1{
+    color: black;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+
+}
+footer {
+    font-size: 20px;
+    text-align:center;
+}

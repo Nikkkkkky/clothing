@@ -1,0 +1,154 @@
+body{
+    margin :0px;
+}
+
+
+
+.MyDiv { 
+    background-image: url(Images/BannerImage.JPG) ;   
+    text-align: center;
+    background-size: 100%;
+}
+
+.menu{ 
+    width: 75%;
+    float: left;
+    height: 70px;
+}
+
+header menu{
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+ul{
+    width: 120%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* decorate the menu */
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    font-size: 25px;
+
+    
+}
+/* This is decorate for <a> */
+ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease;
+}
+/* font-family and font-weight are used to modify text */
+/* Transition is to make the word slowly turn into color */
+
+
+ul li a:hover{
+    color:rgb(212, 10, 10);
+}
+/* nicky */
+
+
+
+
+
+/* Style the form */
+body {
+    background-image: url('Images/background.jpg'); /* Use the image you uploaded */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Adds a translucent white background to the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    width: 100px; /* Adjust size of the logo */
+    height: auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea, button {
+    width: 99%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    font-size: 20px;
+    text-align:center;
+}
